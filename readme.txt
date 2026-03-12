@@ -8,6 +8,8 @@ ApexBird-AI is an advanced autonomous flight system designed to outperform human
 ![Framework](https://img.shields.io/badge/Framework-PyTorch-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+---
+
 ## 🧠 The Intelligence
 The agent operates on a 3-layer neural architecture, processing 7 spatial data points in real-time to maintain a "flow state" during flight.
 
@@ -20,15 +22,19 @@ The agent operates on a 3-layer neural architecture, processing 7 spatial data p
 * **Dynamic Gap:** Real-time size of the passing window.
 * **Upper Boundary:** Proximity to the screen ceiling.
 
+---
+
 ## 🛠️ Advanced Features
 * **Neuro-Reflex Controller:** Millisecond-latency inference via PyTorch.
 * **Fixed-Speed Mastery:** Optimized for a constant speed of 4.0 to focus on pure spatial precision.
 * **"New Blood" GA Logic:** Prevents population stagnation by injecting fresh genetic diversity during training plateaus.
 * **Dynamic Reward Engineering:** Uses a "Magnet-Alignment" reward system to pull the agent toward the center of obstacles.
 
+---
+
 ## 🚀 Installation & Usage
 
-### 1. Clone the Repo
+### 1. Clone the Repository
 ```bash
 git clone [https://github.com/yourusername/ApexBird-AI.git](https://github.com/yourusername/ApexBird-AI.git)
 cd ApexBird-AI
