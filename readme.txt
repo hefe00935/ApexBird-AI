@@ -1,7 +1,8 @@
 # 🦅 ApexBird-AI
-> **High-Performance Autonomous Navigation Engine powered by Deep Reinforcement Learning.**
+## **High-Performance Autonomous Navigation Engine**
+> **Mastering spatial precision through Deep Reinforcement Learning and Evolutionary Algorithms.**
 
-ApexBird-AI is an advanced autonomous flight system designed to outperform human capabilities in dynamic environments. Using a custom-built **Deep Neural Network (MLP)** and an **Evolutionary Genetic Algorithm**, the agent masters high-frequency decision-making and precise spatial navigation.
+ApexBird-AI is an advanced autonomous flight system designed to outperform human capabilities. Using a custom **Deep Neural Network (MLP)** and a **Genetic Algorithm**, the agent achieves flawless navigation in high-speed, dynamic environments.
 
 ![Performance](https://img.shields.io/badge/Performance-Legendary-cyan)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
@@ -10,31 +11,31 @@ ApexBird-AI is an advanced autonomous flight system designed to outperform human
 
 ---
 
-## 🧠 The Intelligence
-The agent operates on a 3-layer neural architecture, processing 7 spatial data points in real-time to maintain a "flow state" during flight.
+# 🧠 THE INTELLIGENCE
+The agent operates on a high-speed 3-layer neural architecture. It processes **7 Core Spatial Senses** in real-time to maintain a perfect "flow state."
 
-### Neural Inputs (The 7 Senses):
-* **Y-Altitude:** Normalized vertical position.
-* **Velocity:** Instantaneous climbing/falling speed.
-* **X-Proximity:** Horizontal distance to the next obstacle.
-* **Gap Centering:** Vertical offset from the safe-zone center.
-* **Ceiling Threshold:** Altitude of the upper pipe.
-* **Dynamic Gap:** Real-time size of the passing window.
-* **Upper Boundary:** Proximity to the screen ceiling.
+### **The 7 Neural Inputs:**
+1. **Y-Altitude:** Normalized vertical position.
+2. **Velocity:** Instantaneous climbing/falling speed.
+3. **X-Proximity:** Horizontal distance to the next obstacle.
+4. **Gap Centering:** Vertical offset from the safe-zone center.
+5. **Ceiling Threshold:** Altitude of the upper pipe.
+6. **Dynamic Gap:** Real-time size of the passing window.
+7. **Upper Boundary:** Proximity to the screen ceiling.
 
 ---
 
-## 🛠️ Advanced Features
+# 🛠️ ADVANCED FEATURES
 * **Neuro-Reflex Controller:** Millisecond-latency inference via PyTorch.
-* **Fixed-Speed Mastery:** Optimized for a constant speed of 4.0 to focus on pure spatial precision.
-* **"New Blood" GA Logic:** Prevents population stagnation by injecting fresh genetic diversity during training plateaus.
-* **Dynamic Reward Engineering:** Uses a "Magnet-Alignment" reward system to pull the agent toward the center of obstacles.
+* **Fixed-Speed Mastery:** Locked at **Speed 4.0** for pure spatial precision.
+* **"New Blood" GA Logic:** Injects fresh genetic diversity (20-50% immigration rate) to bypass training plateaus.
+* **Magnet-Alignment:** A dynamic reward system that pulls the agent toward the gap center.
 
 ---
 
-## 🚀 Installation & Usage
+# 🚀 INSTALLATION & USAGE
 
-### 1. Clone the Repository
+### **1. Clone the Repository**
 ```bash
 git clone [https://github.com/yourusername/ApexBird-AI.git](https://github.com/yourusername/ApexBird-AI.git)
 cd ApexBird-AI
