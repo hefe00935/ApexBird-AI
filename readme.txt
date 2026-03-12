@@ -33,9 +33,25 @@ The agent operates on a high-speed 3-layer neural architecture. It processes **7
 
 ---
 
-## 🚀 Installation & Usage
+## 🚀 Installation, Training & Testing
 
-### 1. Clone the Repository
 ```bash
+# 1. Clone the Repository
 git clone https://github.com/hefe00935/ApexBird-AI.git
 cd ApexBird-AI
+
+# 2. Install Dependencies
+pip install torch numpy pygame
+
+# 3. Start Training
+python train.py
+
+# ⌨️ Keyboard Controls (Critical)
+# S  - Save the current "Elite" brain manually
+#      • Instant Snapshot: Saves the current best model as a .pth file immediately
+#      • Manual Logic: Capture perfect-flow moments before crash or next generation
+
+# 🏆 Testing Saved Models
+# 1. Update the MODEL_PATH in test_model.py
+# 2. Run the test
+python test_model.py
