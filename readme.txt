@@ -37,5 +37,42 @@ The agent operates on a high-speed 3-layer neural architecture. It processes **7
 
 ### **1. Clone the Repository**
 ```bash
-git clone [https://github.com/yourusername/ApexBird-AI.git](https://github.com/yourusername/ApexBird-AI.git)
+git clone [https://github.com/hefe00935/ApexBird-AI.git](https://github.com/hefe00935/ApexBird-AI.git)
 cd ApexBird-AI
+
+2. Install Dependencies
+Bash
+
+pip install torch numpy pygame
+
+3. Start Training
+Bash
+
+python train.py
+
+⌨️ KEYBOARD CONTROLS (CRITICAL)
+Press S to SAVE THE BRAIN
+
+While the training window is active, you can manually record the current "Elite" agent.
+
+    Instant Snapshot: Pressing S saves the current best model as a .pth file immediately.
+
+    Manual Logic: This allows you to capture "Perfect Flow" moments manually before the next generation starts or a sudden crash occurs.
+
+🏆 TESTING THE LEGENDS
+
+To watch your saved models (like the 1748+ score elites) fly in a synced environment:
+
+    Update the MODEL_PATH in test_model.py.
+
+    Run the command:
+
+Bash
+
+python test_model.py
+
+📜 LICENSE
+
+Distributed under the MIT License.
+
+ApexBird-AI: Pushing the limits of autonomous agent navigation.
